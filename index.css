@@ -22,6 +22,13 @@ body {
 
 .gallery {
   margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;  
+}
+
+img {
+  border: solid black 2px;
+  border-radius: 5px;
+  box-shadow: black 0 4px 8px 0;
+  padding: 5px;
 }

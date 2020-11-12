@@ -14,3 +14,14 @@ body {
 .hidden {
   display: none;
 }
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

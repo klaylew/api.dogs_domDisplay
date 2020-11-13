@@ -16,7 +16,7 @@ function generateImages() {
   fetch(html)
     .then((res) => res.json())
     .then((resJson) => {
-      let output = "";
+      let output = "<h2>Here you go! Enjoy!</h2>";
       resJson.message.forEach(function(html){
         console.log(html);
         output += 
@@ -26,7 +26,8 @@ function generateImages() {
         </div>      
         `;
       });
-      document.getElementById('photos').innerHTML = output;
+        document.getElementById('photos').innerHTML = output;
+        $('.results').removeClass('hidden');
     })
     .catch(error => alert('Something went wrong. Try again later.'));
 }
